@@ -70,8 +70,8 @@ public class WebShooter
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		MinecraftForge.EVENT_BUS.register(this); // for onConfigChanged
-		FMLCommonHandler.instance().bus().register(this); // for onLivingAttack
+		MinecraftForge.EVENT_BUS.register(this); // for onLivingAttack
+		FMLCommonHandler.instance().bus().register(this); // for onConfigChanged
 	}
 
 	@SubscribeEvent
