@@ -41,7 +41,7 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = WebShooter.MODID, version = WebShooter.VERSION, guiFactory = "josephcsible.webshooter.WebShooterGuiFactory")
+@Mod(modid = WebShooter.MODID, version = WebShooter.VERSION, acceptedMinecraftVersions = "[1.9,)", guiFactory = "josephcsible.webshooter.WebShooterGuiFactory")
 public class WebShooter
 {
 	// XXX duplication with mcmod.info and build.gradle
