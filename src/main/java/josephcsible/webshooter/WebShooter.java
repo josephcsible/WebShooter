@@ -46,7 +46,7 @@ public class WebShooter
 {
 	// XXX duplication with mcmod.info and build.gradle
 	public static final String MODID = "webshooter";
-	public static final String VERSION = "1.0.0";
+	public static final String VERSION = "1.0.1";
 
 	public static Configuration config;
 	public static SimpleNetworkWrapper netWrapper;
