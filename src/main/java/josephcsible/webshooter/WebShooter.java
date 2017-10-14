@@ -99,7 +99,7 @@ public class WebShooter
 		if(!allowReplacement && !oldBlock.isAir(state, world, pos))
 			return;
 
-		if(webChance < world.rand.nextDouble())
+		if(webChance <= world.rand.nextDouble())
 			return;
 
 		world.setBlockState(pos, Blocks.WEB.getDefaultState());
