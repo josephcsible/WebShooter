@@ -1,0 +1,17 @@
+[
+{
+  "modid": "webshooter",
+  "name": "WebShooter",
+  "description": "Spider attacks cause their target to get covered in a cobweb",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://minecraft.curseforge.com/projects/webshooter",
+  "updateJSON": "$updatejson",
+  "authorList": ["Joseph C. Sible", "Stormwind99"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "dependencies": [
+    "mod_MinecraftForge"
+  ]
+}
+]
