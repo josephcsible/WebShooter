@@ -15,7 +15,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-*/
+ */
 
 package josephcsible.webshooter;
 
@@ -56,8 +56,8 @@ public class PlayerInWebMessage implements IMessage {
 			mc.addScheduledTask(new Runnable() {
 				@Override
 				public void run() {
-					mc.theWorld.setBlockState(msg.pos, Blocks.WEB.getDefaultState());
-					mc.thePlayer.setInWeb();
+					mc.world.setBlockState(msg.pos, Blocks.WEB.getDefaultState());
+					mc.player.setInWeb();
 				}
 			});
 			return null;
